@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Open Sans';
+}
+.nav {
+  padding: 0px 40px;
+  min-height: 10vh;
+  transition: height 1s ease-in-out;
+  overflow: hidden;
+  height: 0;
+  position: absolute;
+  width: 100%;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo {
+  width: 15%;
+  padding-top: 10px;
+}
+.logo .img1 {
+  width: 100%;
+}
+.toggle-icon {
+  width: 90%;
+  position: absolute;
+  top: 0%;
+  cursor: pointer;
+  display: none;
+}
+.toggle-icon .menu-icon {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.5rem 0;
+}
+.toggle-icon .menu-icon .drop-icon {
+  width: 1.6rem;
+}
+.collapse {
+  height: 30rem;
+}
+.nav-list {
+  padding: 20px 0;
+}
+.nav-list .list {
+  padding-left: 25px;
+  font-size: 17px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav-list .list:hover {
+  color: #c3bd86;
+}
+.nav .button {
+  padding-top: 15px;
+}
+.nav .button .btn {
+  font-size: 15px;
+  padding: 10px 0px;
+  width: 100px;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav .button .btn.one {
+  background: #c3bd86;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.nav .button .btn.two {
+  background: #fff;
+  color: #c3bd86;
+  border-radius: 3px;
+  border: 1px solid #c3bd86;
+}
+.nav .button .btn.two:hover {
+  background: #f18808;
+  color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+  .nav{
+    background: #c3bd86;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
+  .logo {
+    width: 200px;
+  }
+  .toggle-icon {
+    display: block;
+  }
+  .nav-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .nav-list .list {
+    padding-bottom: 15px;
+    padding-left: 0;
+  }
+  .nav .button {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav .button .btn {
+    margin-bottom: 15px;
+  }
+  .nav .button .btn.two {
+    background: #f18808;
+    color: #fff;
+    border: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo {
+    width: 150px;
+  }
+  .nav {
+    padding: 0 10px;
+  }
+  .toggle-icon .menu-icon {
+    padding: 1rem 0;
+  }
+}
