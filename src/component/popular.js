@@ -1,12 +1,12 @@
 import React from 'react'
 import './popular.css'
-import Image6 from '../image/restaurant-img19.webp'
-import Image1 from '../image/restaurant-img13.webp'
-import Image7 from '../image/restaurant-img20.webp'
-import Image8 from '../image/restaurant-img22.webp'
-import Image9 from '../image/restaurant-img24.webp'
-import Image10 from '../image/restaurant-img23.webp'
-import Image11 from '../image/restaurant-img26.webp'
+import Image6 from '../image/restaurant-img19.png'
+import Image1 from '../image/restaurant-img13.png'
+import Image7 from '../image/restaurant-img20.png'
+import Image8 from '../image/restaurant-img22.png'
+import Image9 from '../image/restaurant-img24.png'
+import Image10 from '../image/restaurant-img23.png'
+import Image11 from '../image/restaurant-img26.png'
 
 function popular() {
   return (

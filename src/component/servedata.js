@@ -1,7 +1,7 @@
-import Image1 from '../image/restaurant-img13.webp'
-import Image2 from '../image/restaurant-img14.webp'
-import Image3 from '../image/restaurant-img15.webp'
-import Image4 from '../image/restaurant-img16.webp'
+import Image1 from '../image/restaurant-img13.png'
+import Image2 from '../image/restaurant-img14.png'
+import Image3 from '../image/restaurant-img15.png'
+import Image4 from '../image/restaurant-img16.png'
 
 const menu = [
   {
