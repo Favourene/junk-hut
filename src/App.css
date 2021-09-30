@@ -58,6 +58,9 @@
   padding: 0 20px;
   height: 100vh;
 }
+.love.ed{
+  flex-wrap: wrap-reverse;
+}
 .love .love-left{
   width: 35%;
   text-align: center;

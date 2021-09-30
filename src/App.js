@@ -43,7 +43,7 @@ function App() {
         </div>
         <Popular />
       </section>
-      <section className='love'>
+      <section className='love ed'>
         <div className='love-right ed'>
           <div className='love-frame'></div>
         </div>
