@@ -105,6 +105,8 @@
 }
 .love .love-right.ed{
     background: url('./image/hreo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .love .love-right .love-frame{
   border: 10px solid #ffffff6d;
