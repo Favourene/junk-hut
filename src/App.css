@@ -103,6 +103,9 @@
   background-position: center;
   padding: 20px;
 }
+.love .love-right.ed{
+    background: url('./image/hreo2.jpg');
+}
 .love .love-right .love-frame{
   border: 10px solid #ffffff6d;
   height: 100%;
@@ -128,4 +131,27 @@
   .love .love-left .love-left-wrap{
     padding: 20px 0
   }
+}
+/*--------------Love section ends-------*/
+/*--------------pop-sec section-------*/
+.pop-sec{
+  background: #f7f5e7;
+  padding-bottom: 150px;
+}
+.pop-head{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 150px 0;
+}
+.popwrap{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.pop-line{
+  height: 4px;
+  width: 30px;
+  background: #000;
+  margin-top: 10px;
 }
