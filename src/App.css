@@ -160,3 +160,89 @@
   background: #000;
   margin-top: 10px;
 }
+/*--------------pop-sec section end-------*/
+/*--------------menu-sec section-------*/
+.menu{
+  background: #f7f5e7;
+  padding-bottom: 150px;
+}
+.menu-sec{
+  background: #f7f5e7;
+  padding-bottom: 150px;
+}
+.menu-head{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 150px 0;
+}
+.menuwrap{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.menu-line{
+  height: 4px;
+  width: 30px;
+  background: #000;
+  margin-top: 10px;
+}
+/*--------------menu-sec section ends-------*/
+/*--------------course section-------*/
+.course{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+.course .meal{
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  background-repeat: no-repeat;
+}
+.course .meal .frame{
+  border: 5px solid #ffffff6d;
+  padding: 50px 0;
+}
+.course .meal.breakfast{
+ background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./image/pack1.jpg');
+     background-size: cover;
+  background-repeat: no-repeat;
+}
+.course .meal.lunch{
+ background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./image/pack2.jpg');
+         background-size: cover;
+  background-repeat: no-repeat;
+}
+.course .meal.dina{
+ background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./image/pack3.jpg');
+         background-size: cover;
+  background-repeat: no-repeat;
+}
+.course .meal.drinks{
+ background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./image/pack4.jpg');
+         background-size: cover;
+  background-repeat: no-repeat;
+}
+.course .meal:hover{
+  background: #c3bd86;
+  cursor: pointer;
+}
+@media screen and (max-width:900px) {
+  .course .meal{
+    width: 50%;
+  }
+}
+@media screen and (max-width:500px) {
+  .course .meal{
+    width: 100%;
+  }
+}

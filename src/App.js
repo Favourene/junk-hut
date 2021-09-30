@@ -4,10 +4,11 @@ import './App.css'
 import Serve from './component/Serve'
 import Image5 from './image/restaurant-img17.webp'
 import Popular from './component/popular'
+import Menu from './component/Menu'
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
       <section className='hero'>
         <div className='hero-wrapper'>
@@ -60,7 +61,46 @@ function App() {
           </div>
         </div>
       </section>
-    </div>
+      <section className='menu'>
+        <div className='menu-head'>
+          <div className='menuwrap'>
+            <h1>THE MENU</h1>
+            <div className='menu-line'></div>
+          </div>
+        </div>
+        <Menu />
+      </section>
+      <section className='course'>
+        <div className='meal breakfast'>
+          <div className='frame'>
+            <h2>BREAKFAST</h2>
+            <p>Every Day</p>
+            <p>08:00 - 10:00</p>
+          </div>
+        </div>
+        <div className='meal lunch'>
+          <div className='frame'>
+            <h2>LUNCH</h2>
+            <p>Every Day</p>
+            <p>13:00 - 15:00</p>
+          </div>
+        </div>
+        <div className='meal dina'>
+          <div className='frame'>
+            <h2>DINNER</h2>
+            <p>Every Day</p>
+            <p>19:00 - 22:00</p>
+          </div>
+        </div>
+        <div className='meal drinks'>
+          <div className='frame'>
+            <h2>DRINKS</h2>
+            <p>Every Day</p>
+            <p>19:00 - 22:00</p>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
 
