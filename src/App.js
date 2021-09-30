@@ -3,6 +3,7 @@ import Nav from './component/Nav'
 import './App.css'
 import Serve from './component/Serve'
 import Image5 from './image/restaurant-img17.webp'
+import Image6 from './image/restaurant-img31.webp'
 import Popular from './component/popular'
 import Menu from './component/Menu'
 
@@ -97,6 +98,50 @@ function App() {
             <h2>DRINKS</h2>
             <p>Every Day</p>
             <p>19:00 - 22:00</p>
+          </div>
+        </div>
+      </section>
+      <section className='chef'>
+        <div className='chef-head'>
+          <div className='chefwrap'>
+            <h1>THE CHEF</h1>
+            <div className='chef-line'></div>
+          </div>
+        </div>
+        <div className='chef-wrap'>
+          <div className='chef-left'>
+            <div className='chef-frame'></div>
+          </div>
+          <div className='chef-right'>
+            <div className='chef-right-wrap'>
+              <img src={Image6} alt='' />
+              <h1>PATRICK SMITH</h1>
+              <p className='chef-job'>CHEF, CO-FOUNDER</p>
+              <p className='chef-desc'>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry’s standard dummy
+                text ever since the 1500s.
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <div className='chef-wrap ed'>
+          <div className='chef-right'>
+            <div className='chef-right-wrap'>
+              <img src={Image6} alt='' />
+              <h1>SANCHO PANSA</h1>
+              <p className='chef-job'>BARTENDER</p>
+              <p className='chef-desc'>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry’s standard dummy
+                text ever since the 1500s.
+              </p>
+              <button>READ MORE</button>
+            </div>
+          </div>
+          <div className='chef-left new'>
+            <div className='chef-frame'></div>
           </div>
         </div>
       </section>
