@@ -1,0 +1,43 @@
+.serverow {
+  padding: 100px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #f7f5e7;
+}
+.card {
+  width: 23%;
+  border: 5px solid #c3bd86;
+  text-align: center;
+  padding: 10px;
+}
+.card .card-wrap{
+ text-align: center;
+ border: 2px dotted #c3bd86;
+ height: 100%;
+}
+.card .card-wrap .card-img{
+ padding: 30px 0;
+}
+.card .card-wrap .card-h2{
+ padding-bottom: 20px;
+ font-size: 17px;
+ font-weight: 100;
+}
+.card .card-wrap .card-p{
+ padding-bottom: 20px;
+ color: rgb(92, 88, 88);
+ font-size: 13px;
+}
+@media screen and (max-width:800px) {
+ .card{
+  width: 48%;
+  margin-bottom: 20px;
+ }
+}
+@media screen and (max-width:500px) {
+ .card{
+  width: 100%;
+  margin-bottom: 20px;
+ }
+}

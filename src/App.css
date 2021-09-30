@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -46,5 +47,85 @@
   }
   .hero .hero-wrapper h1 {
     font-size: 50px;
+  }
+}
+
+/*--------------Love section-------*/
+.love {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  height: 100vh;
+}
+.love .love-left{
+  width: 35%;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.love .love-left .love-left-wrap{
+  padding: 0 30px;
+}
+.love .love-left .love-left-wrap img{
+  padding-bottom: 20px;
+}
+.love .love-left .love-left-wrap h1{
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.love .love-left .love-left-wrap p{
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: rgb(92, 89, 89);
+  letter-spacing: 2px;
+}
+.love .love-left .love-left-wrap button{
+  padding: 10px  20px;
+  font-size:13px;
+  background:none;
+  border: 3px solid black;
+  font-weight: bold;
+}
+.love .love-left .love-left-wrap button:hover{
+  cursor: pointer;
+  background: #c3bd86;
+  color: #fff;
+}
+.love .love-right {
+  background: url('./image/hero1.jpg');
+  height: 100%;
+  width: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+.love .love-right .love-frame{
+  border: 10px solid #ffffff6d;
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width:1000px) {
+  .love{
+    height: fit-content;
+  }
+  .love .love-left{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .love .love-right{
+    width: 100%;
+    height: 400px;
+  }
+}
+@media screen and (max-width:500px) {
+    .love .love-left .love-left-wrap h1{
+    font-size: 30px;
+  }
+  .love .love-left .love-left-wrap{
+    padding: 20px 0
   }
 }

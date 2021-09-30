@@ -21,25 +21,25 @@ const Nav = () => {
         </div>
         <div className='nav-list'>
           <div className='nav-row'>
-            <a className='list active' href='#'>
+            <a className='list active' href='/'>
               Home
             </a>
-            <a className='list' href='#'>
+            <a className='list' href='/'>
               About
             </a>
-            <a className='list' href='#'>
+            <a className='list' href='/'>
               Dishes
             </a>
-            <a className='list' href='#'>
+            <a className='list' href='/'>
               Menu
             </a>
-            <a className='list' href='#'>
+            <a className='list' href='/'>
               Chefs
             </a>
-            <a className='list' href='#'>
+            <a className='list' href='/'>
               Testimonies
             </a>
-            <a className='list' href='#'>
+            <a className='list' href='/'>
               Contact
             </a>
           </div>
