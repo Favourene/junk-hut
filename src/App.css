@@ -58,10 +58,10 @@
   padding: 0 20px;
   height: 100vh;
 }
-.love.ed{
+.love.ed {
   flex-wrap: wrap-reverse;
 }
-.love .love-left{
+.love .love-left {
   width: 35%;
   text-align: center;
   height: 100%;
@@ -69,30 +69,30 @@
   justify-content: center;
   align-items: center;
 }
-.love .love-left .love-left-wrap{
+.love .love-left .love-left-wrap {
   padding: 0 30px;
 }
-.love .love-left .love-left-wrap img{
+.love .love-left .love-left-wrap img {
   padding-bottom: 20px;
 }
-.love .love-left .love-left-wrap h1{
+.love .love-left .love-left-wrap h1 {
   padding-bottom: 20px;
   font-size: 40px;
 }
-.love .love-left .love-left-wrap p{
+.love .love-left .love-left-wrap p {
   padding-bottom: 20px;
   font-size: 15px;
   color: rgb(92, 89, 89);
   letter-spacing: 2px;
 }
-.love .love-left .love-left-wrap button{
-  padding: 10px  20px;
-  font-size:13px;
-  background:none;
+.love .love-left .love-left-wrap button {
+  padding: 10px 20px;
+  font-size: 13px;
+  background: none;
   border: 3px solid black;
   font-weight: bold;
 }
-.love .love-left .love-left-wrap button:hover{
+.love .love-left .love-left-wrap button:hover {
   cursor: pointer;
   background: #c3bd86;
   color: #fff;
@@ -106,55 +106,55 @@
   background-position: center;
   padding: 20px;
 }
-.love .love-right.ed{
-    background: url('./image/hreo2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+.love .love-right.ed {
+  background: url('./image/hreo2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.love .love-right .love-frame{
+.love .love-right .love-frame {
   border: 10px solid #ffffff6d;
   height: 100%;
   width: 100%;
 }
-@media screen and (max-width:1000px) {
-  .love{
+@media screen and (max-width: 1000px) {
+  .love {
     height: fit-content;
   }
-  .love .love-left{
+  .love .love-left {
     width: 100%;
     padding-bottom: 20px;
   }
-  .love .love-right{
+  .love .love-right {
     width: 100%;
     height: 400px;
   }
 }
-@media screen and (max-width:500px) {
-    .love .love-left .love-left-wrap h1{
+@media screen and (max-width: 500px) {
+  .love .love-left .love-left-wrap h1 {
     font-size: 30px;
   }
-  .love .love-left .love-left-wrap{
-    padding: 20px 0
+  .love .love-left .love-left-wrap {
+    padding: 20px 0;
   }
 }
 /*--------------Love section ends-------*/
 /*--------------pop-sec section-------*/
-.pop-sec{
+.pop-sec {
   background: #f7f5e7;
   padding-bottom: 150px;
 }
-.pop-head{
+.pop-head {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 150px 0;
 }
-.popwrap{
- display: flex;
- flex-direction: column;
- align-items: center;
+.popwrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.pop-line{
+.pop-line {
   height: 4px;
   width: 30px;
   background: #000;
@@ -162,26 +162,26 @@
 }
 /*--------------pop-sec section end-------*/
 /*--------------menu-sec section-------*/
-.menu{
+.menu {
   background: #f7f5e7;
   padding-bottom: 150px;
 }
-.menu-sec{
+.menu-sec {
   background: #f7f5e7;
   padding-bottom: 150px;
 }
-.menu-head{
+.menu-head {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 150px 0;
 }
-.menuwrap{
- display: flex;
- flex-direction: column;
- align-items: center;
+.menuwrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.menu-line{
+.menu-line {
   height: 4px;
   width: 30px;
   background: #000;
@@ -189,12 +189,12 @@
 }
 /*--------------menu-sec section ends-------*/
 /*--------------course section-------*/
-.course{
+.course {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.course .meal{
+.course .meal {
   width: 25%;
   text-align: center;
   padding: 20px;
@@ -203,84 +203,84 @@
   color: #fff;
   background-repeat: no-repeat;
 }
-.course .meal .frame{
+.course .meal .frame {
   border: 5px solid #ffffff6d;
   padding: 50px 0;
 }
-.course .meal.breakfast{
- background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+.course .meal.breakfast {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('./image/pack1.jpg');
-     background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-.course .meal.lunch{
- background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+.course .meal.lunch {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('./image/pack2.jpg');
-         background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-.course .meal.dina{
- background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+.course .meal.dina {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('./image/pack3.jpg');
-         background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-.course .meal.drinks{
- background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+.course .meal.drinks {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('./image/pack4.jpg');
-         background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
-.course .meal:hover{
+.course .meal:hover {
   background: #c3bd86;
   cursor: pointer;
 }
-@media screen and (max-width:900px) {
-  .course .meal{
+@media screen and (max-width: 900px) {
+  .course .meal {
     width: 50%;
   }
 }
-@media screen and (max-width:500px) {
-  .course .meal{
+@media screen and (max-width: 500px) {
+  .course .meal {
     width: 100%;
   }
 }
 /*--------------course section ends-------*/
-/*--------------menu-sec section-------*/
-.chef{
+/*--------------chef-sec section-------*/
+.chef {
   background: #f7f5e7;
   padding-bottom: 150px;
 }
-.chef-sec{
+.chef-sec {
   background: #f7f5e7;
   padding-bottom: 150px;
 }
-.chef-head{
+.chef-head {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 150px 0;
 }
-.chefwrap{
- display: flex;
- flex-wrap: wrap;
- flex-direction: column;
- align-items: center;
+.chefwrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
-.chef-line{
+.chef-line {
   height: 4px;
   width: 30px;
   background: #000;
   margin-top: 10px;
 }
-.chef-wrap{
+.chef-wrap {
   display: flex;
   justify-content: space-between;
   height: 95vh;
   background: #fff;
   flex-wrap: wrap-reverse;
 }
-.chef-wrap .chef-left{
+.chef-wrap .chef-left {
   width: 50%;
   height: 100%;
   background: url('./image/chef1.jpg');
@@ -288,36 +288,36 @@
   background-position: center;
   padding: 20px;
 }
-.chef-wrap .chef-left.new{
+.chef-wrap .chef-left.new {
   background: url('./image/chef2.jpg');
   background-position: center;
   background-size: cover;
 }
-.chef-wrap .chef-left .chef-frame{
+.chef-wrap .chef-left .chef-frame {
   height: 100%;
-  width:100%;
+  width: 100%;
   border: 10px solid rgba(255, 255, 255, 0.535);
 }
-.chef-wrap .chef-right{
+.chef-wrap .chef-right {
   width: 50%;
   display: flex;
   align-items: center;
   text-align: center;
 }
-.chef-wrap .chef-right .chef-right-wrap{
+.chef-wrap .chef-right .chef-right-wrap {
   padding: 0 100px;
 }
-.chef-wrap .chef-right .chef-right-wrap img{
+.chef-wrap .chef-right .chef-right-wrap img {
   padding-bottom: 30px;
 }
-.chef-wrap .chef-right .chef-right-wrap h1{
+.chef-wrap .chef-right .chef-right-wrap h1 {
   padding-bottom: 10px;
   font-weight: 400;
 }
-.chef-wrap .chef-right .chef-right-wrap .chef-job{
+.chef-wrap .chef-right .chef-right-wrap .chef-job {
   padding-bottom: 50px;
 }
-.chef-wrap .chef-right .chef-right-wrap .chef-desc{
+.chef-wrap .chef-right .chef-right-wrap .chef-desc {
   font-size: 14px;
   padding-bottom: 50px;
   color: #7c797c;
@@ -337,23 +337,151 @@
   cursor: pointer;
 }
 
-@media screen and (max-width:800px) {
-  .chef-wrap{
+@media screen and (max-width: 800px) {
+  .chef-wrap {
     height: max-content;
     margin-bottom: 50px;
   }
-  .chef-wrap.ed{
+  .chef-wrap.ed {
     flex-wrap: wrap;
   }
-  .chef-wrap .chef-left{
+  .chef-wrap .chef-left {
     width: 100%;
     height: 100vh;
   }
-  .chef-wrap .chef-right{
+  .chef-wrap .chef-right {
     width: 100%;
   }
-  .chef-wrap .chef-right .chef-right-wrap{
+  .chef-wrap .chef-right .chef-right-wrap {
     padding: 50px 20px;
   }
 }
-/*--------------menu-sec section ends-------*/
+/*--------------chef-sec section ends-------*/
+/*--------------Testimony-sec section-------*/
+.testimony {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 80px 20px 150px 20px;
+}
+.testimony .testimony-card {
+  width: 30%;
+}
+.testimony .testimony-card {
+  width: 30%;
+  text-align: center;
+}
+.testimony .testimony-card .img {
+  padding-bottom: 30px;
+}
+.testimony .testimony-card .img img {
+  width: 40%;
+  border-radius: 50%;
+}
+.testimony .testimony-card p {
+  font-size: 13px;
+  color: gray;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+.testimony .testimony-card .star img {
+  width: 20px;
+  padding-bottom: 10px;
+  padding: 0 3px 10px 3px;
+}
+.testimony .testimony-card h2 {
+  font-size: 15px;
+}
+@media screen and (max-width: 900px) {
+  .testimony {
+    justify-content: space-evenly;
+  }
+  .testimony .testimony-card {
+    width: 45%;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .testimony .testimony-card {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+}
+
+/*--------------Testimony-sec section ends-------*/
+/*--------------Counter-sec section-------*/
+.counter {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./image/hero5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.counter .counter-card {
+  color: #fff;
+  text-align: center;
+}
+.counter .counter-card h1{
+  font-size: 40px ;
+  font-weight: 500;
+
+}
+.counter .counter-card p{
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 800px) {
+  .counter{
+    height: max-content;
+    padding: 100px 20px;
+  }
+  .counter .counter-card {
+    width: 50%;
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .counter .counter-card {
+    width: 100%;
+  }
+}
+/*--------------Counter-sec section ends-------*/
+/*--------------Contact-sec section -------*/
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+.contact .contact-card{
+  width: 30%;
+  text-align: center;
+}
+.contact .contact-card img{
+  width: 50px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 700px) {
+  .contact .contact-card{
+  width: 100%;
+  padding-bottom: 30px;
+}
+}
+/*--------------Contact-sec section ends-------*/
+footer{
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+footer a{
+  color: #948f63;
+}

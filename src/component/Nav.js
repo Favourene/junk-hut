@@ -24,22 +24,22 @@ const Nav = () => {
             <a className='list active' href='/'>
               Home
             </a>
-            <a className='list' href='/'>
+            <a className='list' href='#about'>
               About
             </a>
-            <a className='list' href='/'>
+            <a className='list' href='#dish'>
               Dishes
             </a>
-            <a className='list' href='/'>
+            <a className='list' href='#menu'>
               Menu
             </a>
-            <a className='list' href='/'>
+            <a className='list' href='#chef'>
               Chefs
             </a>
-            <a className='list' href='/'>
+            <a className='list' href='#testimony'>
               Testimonies
             </a>
-            <a className='list' href='/'>
+            <a className='list' href='#contact'>
               Contact
             </a>
           </div>
